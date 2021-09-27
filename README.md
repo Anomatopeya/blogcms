@@ -1,4 +1,4 @@
 # blog-crm
-`composer require aldwyn/blog-crm:@dev`  
+`composer require aldwyn/blogcms:@dev`  
 `php artisan backpack:install`
 
