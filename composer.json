@@ -9,5 +9,20 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.4",
+        "spatie/laravel-translatable": "^4.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aldwyn\\blogcms\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Aldwyn\\Blogcms\\": "src"
+        }
+    }
 }
