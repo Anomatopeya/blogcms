@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aldwyn\\Blogcms\\TodolistServiceProvider"
+                "Aldwyn\\Blogcms\\CmsServiceProvider"
             ]
         }
     },

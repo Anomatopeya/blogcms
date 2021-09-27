@@ -4,8 +4,11 @@ namespace Aldwyn\Blogcms;
 
 use Illuminate\Support\ServiceProvider;
 
-class TodolistServiceProvider extends ServiceProvider
+class CmsServiceProvider extends ServiceProvider
 {
+    protected $commands = [
+        \Aldwyn\Blogcms\app\Console\Commands\AddSidebarContent::class
+    ];
     /**
     * Bootstrap the application services.
     *
@@ -28,6 +31,6 @@ class TodolistServiceProvider extends ServiceProvider
      */
     public function register()
     {
-//        $this->app->make('Aldwyn\Blogcms\TodolistController');
+//        $this->app->make('Aldwyn\Blogcms\CmsController');
     }
 }
