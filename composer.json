@@ -1,0 +1,13 @@
+{
+    "name": "aldwyn/blogcms",
+    "description": "Blog CMS on backpack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anomatopeya",
+            "email": "anomatopeya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
