@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Models;
+namespace Aldwyn\Blogcms\app\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Backpack\CRUD\app\Models\Traits\SpatieTranslatable\HasTranslations;
@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Str;
 
 /**
- * App\Models\ArticleCategory
+ * Aldwyn\Blogcms\app\Models\ArticleCategory
  *
  * @property int $id
  * @property int $status

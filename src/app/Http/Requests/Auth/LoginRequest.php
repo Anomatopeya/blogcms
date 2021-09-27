@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Http\Requests\Auth;
+namespace Aldwyn\Blogcms\app\Http\Requests\Auth;
 
 use Illuminate\Auth\Events\Lockout;
 use Illuminate\Foundation\Http\FormRequest;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Aldwyn\Blogcms\App\Models;
+namespace Aldwyn\Blogcms\app\Models;
 
 
 use Illuminate\Database\Eloquent\Model;

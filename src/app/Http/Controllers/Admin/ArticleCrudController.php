@@ -1,9 +1,9 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Http\Controllers\Admin;
+namespace Aldwyn\Blogcms\app\Http\Controllers\Admin;
 
-use Aldwyn\Blogcms\App\Http\Requests\ArticleRequest;
-use Aldwyn\Blogcms\App\Models\Article;
+use Aldwyn\Blogcms\app\Http\Requests\ArticleRequest;
+use Aldwyn\Blogcms\app\Models\Article;
 use Aldwyn\Blogcms\App\Models\ArticleCategory;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;

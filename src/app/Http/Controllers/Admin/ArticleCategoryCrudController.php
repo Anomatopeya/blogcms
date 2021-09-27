@@ -1,9 +1,9 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Http\Controllers\Admin;
+namespace Aldwyn\Blogcms\app\Http\Controllers\Admin;
 
-use Aldwyn\Blogcms\App\Http\Requests\ArticleCategoryRequest;
-use Aldwyn\Blogcms\App\Models\ArticleCategory;
+use Aldwyn\Blogcms\app\Http\Requests\ArticleCategoryRequest;
+use Aldwyn\Blogcms\app\Models\ArticleCategory;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Models;
+namespace Aldwyn\Blogcms\app\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Backpack\CRUD\app\Models\Traits\SpatieTranslatable\HasTranslations;

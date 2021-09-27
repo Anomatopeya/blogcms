@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Models;
+namespace Aldwyn\Blogcms\app\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Backpack\CRUD\app\Models\Traits\SpatieTranslatable\HasTranslations;
@@ -13,7 +13,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Str;
 
 /**
- * Aldwyn\Blogcms\App\Models\Article
+ * Aldwyn\Blogcms\app\Models\Article
  *
  * @property int $id
  * @property int $status
@@ -34,7 +34,7 @@ use Illuminate\Support\Str;
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read ArticleCategory $articleCategory
- * @property-read Collection|\App\Models\ArticleCategory[] $categories
+ * @property-read Collection|\app\Models\ArticleCategory[] $categories
  * @property-read int|null $categories_count
  * @property-read ArticleCategory $category
  * @property-read array $translations

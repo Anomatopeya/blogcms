@@ -1,9 +1,9 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Http\Controllers\Admin;
+namespace Aldwyn\Blogcms\app\Http\Controllers\Admin;
 
-use Aldwyn\Blogcms\App\Http\Requests\TagRequest;
-use Aldwyn\Blogcms\App\Models\Tag;
+use Aldwyn\Blogcms\app\Http\Requests\TagRequest;
+use Aldwyn\Blogcms\app\Models\Tag;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;

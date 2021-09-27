@@ -1,12 +1,7 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Http\Controllers;
+namespace Aldwyn\Blogcms\app\Http\Controllers;
 
-use App\Jobs\CategoryToSeries;
-use App\Models\CharacteristicList;
-use App\Models\Product;
-use App\Models\ProductCategory;
-use App\Notifications\Telegram;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;

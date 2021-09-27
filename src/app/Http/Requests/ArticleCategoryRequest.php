@@ -1,6 +1,6 @@
 <?php
 
-namespace Aldwyn\Blogcms\App\Http\Requests;
+namespace Aldwyn\Blogcms\app\Http\Requests;
 
 use App\Http\Requests\Request;
 use Illuminate\Foundation\Http\FormRequest;
