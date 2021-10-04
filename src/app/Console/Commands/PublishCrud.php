@@ -63,7 +63,7 @@ class PublishCrud extends Command
         $name = (string) $this->argument('crud');
         $nameTitle = ucfirst(Str::camel($name));
         $nameKebab = Str::kebab($nameTitle);
-        $this->file = ucfirst(strtolower($nameKebab)).'CrudController';
+        $this->file = ucfirst(strtolower($nameTitle)).'CrudController';
 
         return $this->publishFile($this->file, $nameKebab, $nameTitle);
     }
