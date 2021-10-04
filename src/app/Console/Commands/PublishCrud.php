@@ -3,6 +3,7 @@
 namespace Aldwyn\Blogcms\app\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Str;
 
 class PublishCrud extends Command
 {
@@ -59,9 +60,12 @@ class PublishCrud extends Command
      */
     public function handle()
     {
-        $this->file = ucfirst(strtolower($this->argument('crud'))).'CrudController';
+        $name = (string) $this->argument('crud');
+        $nameTitle = ucfirst(Str::camel($name));
+        $nameKebab = Str::kebab($nameTitle);
+        $this->file = ucfirst(strtolower($nameKebab.'CrudController';
 
-        return $this->publishFile($this->file);
+        return $this->publishFile($this->file, $nameKebab, $nameTitle);
     }
 
     /**
@@ -70,7 +74,7 @@ class PublishCrud extends Command
      * @param  string  $file  The filename without extension
      * @return void
      */
-    protected function publishFile($file)
+    protected function publishFile($file, $nameKebab, $nameTitle)
     {
         $sourceFile = $this->sourcePath.$file.'.php';
         $copiedFile = $this->destinationPath.$file.'.php';
@@ -112,5 +116,9 @@ class PublishCrud extends Command
                 }
             }
         }
+        // Create the CRUD route
+        $this->call('cms:add-custom-route', [
+            'code' => "Route::crud('$nameKebab', '{$nameTitle}CrudController');",
+        ]);
     }
 }
