@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Console\Commands;
+namespace Aldwyn\Blogcms\app\Console\Commands;
 
 use Illuminate\Console\Command;
 
