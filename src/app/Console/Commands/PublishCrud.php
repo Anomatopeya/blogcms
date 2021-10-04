@@ -33,7 +33,7 @@ class PublishCrud extends Command
      *
      * @var string
      */
-    public $sourcePath = 'vendor/aldwyn/blogcms/src/Http/Controllers/AdminPublishes/';
+    public $sourcePath = 'vendor/aldwyn/blogcms/src/app/Http/Controllers/AdminPublishes/';
 
     /**
      * The directory where the views will pe published TO.
