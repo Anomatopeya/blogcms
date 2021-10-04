@@ -11,7 +11,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
-        "spatie/laravel-translatable": "^4.6"
+        "spatie/laravel-translatable": "^4.6",
+        "backpack/crud": "4.1.*"
     },
     "extra": {
         "laravel": {
