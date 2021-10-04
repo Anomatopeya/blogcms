@@ -194,16 +194,7 @@ class ArticleCategoryCrudController extends CrudController
         $this->setupCreateOperation();
     }
 
-    protected function setupReorderOperation()
-    {
-        // define which model attribute will be shown on draggable elements
-        $this->crud->set('reorder.label', 'title');
-        $this->crud->set('reorder.status', 'status');
-        // define how deep the admin is allowed to nest the items
-        // for infinite levels, set it to 0
-        $this->crud->set('reorder.max_level', 5);
-    }
-
+    //TODO: Зробити симпатичний сінглшов
     protected function setupShowOperation()
     {
         $this->crud->addColumns([

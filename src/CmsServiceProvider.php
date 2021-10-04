@@ -21,7 +21,7 @@ class CmsServiceProvider extends ServiceProvider
 
         // Публикация Файлов Админ
         $this->publishes([
-            __DIR__.'/Http/Controllers/Admin', app_path('Http/Controllers/Admin')
+            __DIR__.'/app/Http/Controllers/AdminPublishes' => app_path('Http/Controllers/Admin')
         ], 'adminCrud');
 //        $this->loadViewsFrom(__DIR__.'/views', 'todolist');
 //        $this->publishes([

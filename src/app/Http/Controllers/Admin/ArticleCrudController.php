@@ -232,7 +232,8 @@ class ArticleCrudController extends CrudController
     {
         $this->setupCreateOperation();
     }
-
+    
+    //TODO: Зробити симпатичний сінглшов
     protected function setupShowOperation()
     {
         $this->crud->addColumns([
