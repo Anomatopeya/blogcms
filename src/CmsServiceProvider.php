@@ -9,7 +9,7 @@ class CmsServiceProvider extends ServiceProvider
     protected $commands = [
         \Aldwyn\Blogcms\app\Console\Commands\AddSidebarContent::class,
         \Aldwyn\Blogcms\app\Console\Commands\PublishCrud::class,
-        \Aldwyn\Blogcms\app\Console\Commands\AddCustomRoute::class
+        \Aldwyn\Blogcms\app\Console\Commands\AddCustomRouteContent::class
     ];
     /**
     * Bootstrap the application services.
