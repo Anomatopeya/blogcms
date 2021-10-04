@@ -15,6 +15,6 @@ Route::group([
     'namespace'  => 'Aldwyn\Blogcms\App\Http\Controllers\Admin',
 ], function () { // custom admin routes
     Route::crud('tag', 'TagCrudController');
-    Route::crud('articlecategory', 'ArticleCategoryCrudController');
+    Route::crud('article-category', 'ArticleCategoryCrudController');
     Route::crud('article', 'ArticleCrudController');
 }); // this should be the absolute last line of this file

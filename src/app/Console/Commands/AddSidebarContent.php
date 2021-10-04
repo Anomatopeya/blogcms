@@ -92,7 +92,7 @@ class AddSidebarContent extends Command
                 <li class='nav-item nav-dropdown'>
                     <a class='nav-link nav-dropdown-toggle' href='#'><i class='nav-icon la la-blog'></i> {{ _('Blog') }} </a>
                     <ul class='nav-dropdown-items'>
-                        <li class='nav-item'><a class='nav-link' href='{{ backpack_url('articlecategory') }}'><i class='nav-icon la  la-bold'></i> {{_('ArticleCategories')}}</a></li>
+                        <li class='nav-item'><a class='nav-link' href='{{ backpack_url('article-category') }}'><i class='nav-icon la  la-bold'></i> {{_('ArticleCategories')}}</a></li>
                         <li class='nav-item'><a class='nav-link' href='{{ backpack_url('article') }}'><i class='nav-icon la la-file-alt'></i>
                             {{_('Articles')}}</a></li>
                     </ul>
