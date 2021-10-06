@@ -24,7 +24,7 @@ class CmsServiceProvider extends ServiceProvider
         // Публикация Вью Файлов Админ
         $this->publishes([
             __DIR__.'resources/views' => app_path('resources/views/vendor/backpack')
-        ], 'cmsCustomView');
+        ], 'cmsCustomViews');
 //        $this->loadViewsFrom(__DIR__.'/views', 'todolist');
 //        $this->publishes([
 //            __DIR__.'/views' => base_path('resources/views/wisdmlabs/todolist'),
